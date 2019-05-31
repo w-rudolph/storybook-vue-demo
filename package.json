@@ -2,12 +2,12 @@
   "name": "storybook-vue-demo",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "storybook": "start-storybook -p 9001 -c .storybook"
   },
+  "private": false,
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.4.5",
     "@storybook/addon-actions": "^5.0.11",
